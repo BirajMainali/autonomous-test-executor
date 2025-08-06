@@ -21,7 +21,7 @@ Define the agents under the `mcpServers` key in your configuration file:
       "command": "uv",
       "args": [
         "--directory",
-        "PATH_OF_CASE_MCP_SERVER",
+        "PATH_OF_CASE_MCP_SERVER", # Follow this repo to clone and install the test-case-mcp-server https://github.com/BirajMainali/autonomous-test-case-mgmt-mcp-server
         "run",
         "main.py"
       ],
